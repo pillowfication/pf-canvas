@@ -1,0 +1,22 @@
+{
+  "name": "pfcanvas",
+  "version": "1.0.0",
+  "description": "Simple jQuery canvas utility",
+  "author": "Markus Tran <thebluepillow@gmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pillowfication/pfcanvas"
+  },
+  "bugs": {
+    "url": "https://github.com/pillowfication/pfcanvas/issues"
+  },
+  "dependencies": {
+    "jquery": "2.1.x"
+  },
+  "keywords": ["pillow", "jquery", "canvas", "canvas2d"],
+  "license": "MIT"
+}
