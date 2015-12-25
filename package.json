@@ -1,6 +1,6 @@
 {
   "name": "pf-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple jQuery canvas utility",
   "author": "Markus Tran <thebluepillow@gmail.com>",
   "main": "index.js",
@@ -18,6 +18,11 @@
   "dependencies": {
     "jquery": "2.1.x"
   },
-  "keywords": ["pillow", "jquery", "canvas", "canvas2d"],
+  "keywords": [
+    "pillow",
+    "jquery",
+    "canvas",
+    "canvas2d"
+  ],
   "license": "MIT"
 }
