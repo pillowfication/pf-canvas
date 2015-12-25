@@ -20,6 +20,7 @@ $(function() {
     ctx.fillRect(10, 10, 80, 80);
   }, {
     // Canvas options
+    // You can also set the size of `#example-1` through CSS and not use this
     width: '100px',
     height: '100px'
   });
@@ -32,7 +33,7 @@ $(function() {
   // Draw a centered, rotating triangle
   var PI23 = Math.PI*2/3, PI43 = Math.PI*4/3;
   var color = '#'+('000000'+(16777216*Math.random()|0).toString(16)).slice(-6);
-  var size = 200;
+  var size = 50;
   var theta = 0;
 
   pfcanvas('#example-2', function(ctx) {

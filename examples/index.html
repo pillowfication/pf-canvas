@@ -5,9 +5,11 @@
   <title>pfcanvas examples</title>
   <script src="bundle.js"></script>
   <style>
+    body {width: 800px; max-width: 100%; margin: 0 auto; font-family: Arial, sans-serif;}
     .canvas {border: 1px solid black;}
-		#example-2 {height: 200px;}
-		#example-3 {cursor: pointer;}
+    #example-1 {width: 100px; height: 100px;}
+    #example-2 {height: 200px;}
+    #example-3 {width: 100px; height: 100px; cursor: pointer;}
   </style>
 </head>
 
@@ -15,7 +17,7 @@
   <p>Use the module to draw a static image.</p>
   <div id="example-1" class="canvas"></div>
   <p>Use the module to draw an animated image which works by looping over the drawing function.</p>
-  <div id="example-2" class="canvas" style="height:200px"></div>
+  <div id="example-2" class="canvas"></div>
   <p>The element passed is also returned with a <code>draw</code> event that can be used to manually redraw the canvas.</p>
   <div id="example-3" class="canvas"></div>
 </body>

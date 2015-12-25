@@ -5,12 +5,14 @@ var pfcanvas = require('..');
 
 $(function() {
 
+  pfcanvas(document.body, function(ctx) {
+    ctx.fillStyle = 'blue';
+    ctx.fillRect(10, 10, 80, 80);
+  });
+
   pfcanvas('#example-1', function(ctx) {
     ctx.fillStyle = 'blue';
     ctx.fillRect(10, 10, 80, 80);
-  }, {
-    width: '100px',
-    height: '100px'
   });
 
   pfcanvas('#example-2', (function() {
@@ -39,9 +41,6 @@ $(function() {
   pfcanvas('#example-3', function(ctx) {
     ctx.fillStyle = '#'+('000000'+(16777216*Math.random()|0).toString(16)).slice(-6);
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
-  }, {
-    width: '100px',
-    height: '100px'
   }).click(function() {
     $(this).trigger('draw');
   });
