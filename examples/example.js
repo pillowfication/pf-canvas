@@ -5,11 +5,6 @@ var pfcanvas = require('..');
 
 $(function() {
 
-  pfcanvas(document.body, function(ctx) {
-    ctx.fillStyle = 'blue';
-    ctx.fillRect(10, 10, 80, 80);
-  });
-
   pfcanvas('#example-1', function(ctx) {
     ctx.fillStyle = 'blue';
     ctx.fillRect(10, 10, 80, 80);
