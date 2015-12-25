@@ -6,7 +6,7 @@
 
 First require the module to use it. I suggest using jQuery, too.
 ```javascript
-var pfcanvas = require('pfcanvas');
+var pfcanvas = require('pf-canvas');
 var $ = require('jquery');
 ```
 
