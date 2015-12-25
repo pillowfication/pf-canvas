@@ -71,7 +71,7 @@ $(function() {
   pfcanvas('#example-2', (function() {
     // Initialization code
     var color = '#'+('000000'+(16777216*Math.random()|0).toString(16)).slice(-6);
-    var size = 200;
+    var size = 50;
     var theta = 0;
 
     // Loop code
@@ -111,6 +111,8 @@ $(function() {
   });
 });
 ```
+
+View these examples in `examples/index.html`.
 
 ## API
 
