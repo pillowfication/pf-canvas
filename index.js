@@ -17,10 +17,7 @@ module.exports = function(elem, draw, options) {
     var $this = $(this);
 
     // Size the container
-    $this.css({
-      position: 'relative',
-      overflow: 'hidden'
-    });
+    $this.css({overflow: 'hidden'});
     if (options.width)
       $this.css('width', options.width);
     if (options.height)
@@ -28,11 +25,7 @@ module.exports = function(elem, draw, options) {
 
     // Create the canvas and context
     var canvas = document.createElement('canvas');
-    $(canvas).css({
-      position: 'absolute',
-      top: 0,
-      left: 0
-    });
+    $(canvas).css({position: 'absolute'});
     if (options.id)
       canvas.id = options.id;
     if (options.class)

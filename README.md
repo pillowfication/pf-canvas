@@ -1,4 +1,4 @@
-# pfcanvas
+# pf-canvas
 
 **Simple jQuery canvas utility** - This is a little tool that takes a DOM element and a drawing function to create a canvas.
 
