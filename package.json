@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pillowfication/pfcanvas"
+    "url": "https://github.com/pillowfication/pf-canvas"
   },
   "bugs": {
-    "url": "https://github.com/pillowfication/pfcanvas/issues"
+    "url": "https://github.com/pillowfication/pf-canvas/issues"
   },
   "dependencies": {
     "jquery": "2.1.x"
