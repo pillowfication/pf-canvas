@@ -1,6 +1,6 @@
 {
   "name": "pf-canvas",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple jQuery canvas utility",
   "author": "Markus Tran <thebluepillow@gmail.com>",
   "main": "index.js",
