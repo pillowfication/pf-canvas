@@ -112,7 +112,11 @@ $(function() {
 });
 ```
 
-View these examples in `examples/index.html`.
+View these examples in `examples/index.html`. To build it, run
+```
+npm install browserify -g
+npm run build
+```
 
 ## API
 
