@@ -2,20 +2,27 @@
   "name": "pf-canvas",
   "version": "1.0.3",
   "description": "Simple jQuery canvas utility",
-  "author": "Markus Tran <thebluepillow@gmail.com>",
-  "main": "index.js",
+  "author": {
+    "name": "Markus Tran",
+    "email": "thebluepillow@gmail.com",
+    "url": "http://pillowfication.com"
+  },
   "scripts": {
     "build": "browserify examples/example.js -o examples/bundle.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pillowfication/pf-canvas"
+    "url": "git://github.com/pillowfication/pf-canvas.git"
   },
   "bugs": {
     "url": "https://github.com/pillowfication/pf-canvas/issues"
   },
+  "main": "index.js",
   "dependencies": {
     "jquery": "2.1.x"
+  },
+  "devDependencies": {
+    "eslint-config-pf": "*"
   },
   "keywords": [
     "pillow",
