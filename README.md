@@ -6,7 +6,7 @@
 
 First require the module to use it. I suggest using jQuery, too.
 ```javascript
-var pfcanvas = require('pf-canvas');
+var canvas = require('pf-canvas');
 var $ = require('jquery');
 ```
 
@@ -14,7 +14,7 @@ Use the module to draw a static image.
 ```javascript
 $(function() {
   // Draw a simple blue square
-  pfcanvas('#example-1', function(ctx) {
+  canvas('#example-1', function(ctx) {
     // Drawing loop code
     ctx.fillStyle = 'blue';
     ctx.fillRect(10, 10, 80, 80);
@@ -36,7 +36,7 @@ $(function() {
   var size = 50;
   var theta = 0;
 
-  pfcanvas('#example-2', function(ctx) {
+  canvas('#example-2', function(ctx) {
     // Clear the canvas
     var width = ctx.canvas.width, height = ctx.canvas.height;
     var centerX = width/2,        centerY = height/2;
@@ -68,7 +68,7 @@ To scope those variables properly, I prefer to rewrite the above as follows
 $(function() {
   var PI23 = Math.PI*2/3, PI43 = Math.PI*4/3;
 
-  pfcanvas('#example-2', (function() {
+  canvas('#example-2', (function() {
     // Initialization code
     var color = '#'+('000000'+(16777216*Math.random()|0).toString(16)).slice(-6);
     var size = 50;
@@ -98,7 +98,7 @@ $(function() {
 The element passed is also returned with a `'draw'` event that can be used to manually redraw the canvas.
 ```javascript
 $(function() {
-  pfcanvas('#example-3', function(ctx) {
+  canvas('#example-3', function(ctx) {
     // Fill the canvas with a random color
     ctx.fillStyle = '#'+('000000'+(16777216*Math.random()|0).toString(16)).slice(-6);
     ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
@@ -120,7 +120,7 @@ npm run build
 
 ## API
 
-### pfcanvas(elem, draw, options)
+### canvas(elem, draw, options)
 
  * **elem** (DOM, jQuery, Array, String) - The element to turn into a canvas
 
